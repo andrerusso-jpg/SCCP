@@ -1,1 +1,27 @@
+programa {
+  funcao inicio() {
+    cadeia op
+    escreva("Digite qual a cor do semaforo para saber o comando ")
+    leia(op)
+    escolha(op)
+    {
+      caso "verde":
+      escreva("siga")
+      pare
+
+
+      caso "amarelo":
+      escreva("Atenção")
+      pare
+     
+      caso contrario:
+      escreva("Opção invalida, digite entre verde, amarelo, vermelho")
+      pare
+
+
+    }
+  }
+}
+
+
 
